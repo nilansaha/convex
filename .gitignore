@@ -1,2 +1,4 @@
 __pycache__
 convex.egg-info
+build
+dist
