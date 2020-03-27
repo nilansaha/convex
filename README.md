@@ -20,9 +20,9 @@ pip install -e .
 
 ### Usage
 
-The model only needs to be downloaded the first time you use the tagger or after you update the package. 
+The model only needs to be downloaded the first time the tagger is used or after the package is updated
 
-```
+```python
 import convex
 convex.download()
 tagger = convex.PosTagger()
