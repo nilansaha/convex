@@ -26,7 +26,7 @@ The model only needs to be downloaded the first time the tagger is used or after
 import convex
 convex.download() # Download all the necessary models
 tagger = convex.PosTagger() # Initialize the Pos Tagging Pipeline
-tagger("Let's see how this new tagger works.") # Tag a sentence
+tagger("Let's see how well this new tagger works.") # Tag a sentence
 ```
 
 Output -
